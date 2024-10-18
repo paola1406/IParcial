@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Almendros</title>
+    <!-- ../css/styles.css el ../ es para retroceder a carpetas anteriores -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Pantalla de carga -->
+        <div id="pantalla-carga">
+            <div class="logo-carga">
+                <img src="img/logo.png" alt="Logo de Los Almendros">
+            </div>
+            <div class="barra-carga">
+                <div id="progreso" class="progreso"></div>
+            </div>
+            <p id="porcentaje-carga">0%</p>
+        </div>
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#productos">Categorias</a></li>
+                <li><a href="#galeria">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
+        </nav>        
+        <!-- Sección del Carrusel -->
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="img/carru1.png" alt="Imagen 1">
+                <div class="carousel-text">
+                    <h1>MERCADITO LOS ALMENDROS</h1>
+                    <p>Con amor hasta tu hogar</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="img/carru2.png" alt="Imagen 2">
+                <div class="carousel-text">
+                    <h1>MERCADITO LOS ALMENDROS</h1>
+                    <p>Con amor hasta tu hogar</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="img/carru3.png" alt="Imagen 3">
+                <div class="carousel-text">
+                    <h1>MERCADITO LOS ALMENDROS</h1>
+                    <p>Con amor hasta tu hogar</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de categorias -->
+        <section id="productos" class="productos-section">
+            <h2>Categorías de Productos</h2>
+            <div class="productos-grid">
+                <!-- Categoría 1 -->
+                <div class="producto-item">
+                    <img src="img/p1.png" alt="Categoría 1">
+                    <h3>Carnes</h3>
+                    <p>Las más frescas de la zona</p>
+                </div>
+                <!-- Categoría 2 -->
+                <div class="producto-item">
+                    <img src="img/p2.png" alt="Categoría 2">
+                    <h3>Frutas y Verduras</h3>
+                    <p>Para tus platillos saludables</p>
+                </div>
+                <!-- Categoría 3 -->
+                <div class="producto-item">
+                    <img src="img/p3.png" alt="Categoría 3">
+                    <h3>Refrescos</h3>
+                    <p>Refresca tu día con nosotros</p>
+                </div>
+                <!-- Categoría 4 -->
+                <div class="producto-item">
+                    <img src="img/p4.png" alt="Categoría 4">
+                    <h3>Botanas</h3>
+                    <p>Para satisfacer tus antojitos</p>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de galeria -->
+        <section id="galeria" class="galeria-section">
+            <h2>Productos</h2>
+            <div class="galeria-grid">
+                <!-- Imagenes -->
+                <div class="galeria-item">
+                    <img src="img/1.png" alt="Galería 1">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/2.png" alt="Galería 2">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/3.png" alt="Galería 3">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/4.png" alt="Galería 4">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/5.png" alt="Galería 5">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/6.png" alt="Galería 6">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/7.png" alt="Galería 7">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/8.png" alt="Galería 8">
+                </div>
+                <!-- Más imágenes ocultas -->
+                <div class="galeria-item hidden">
+                    <img src="img/9.png" alt="Galería 9">
+                </div>
+                <div class="galeria-item hidden">
+                    <img src="img/10.png" alt="Galería 10">
+                </div>
+                <div class="galeria-item hidden">
+                    <img src="img/11.png" alt="Galería 10">
+                </div>
+                <div class="galeria-item hidden">
+                    <img src="img/12.png" alt="Galería 10">
+                </div>
+                <!-- Puedes añadir más imágenes ocultas -->
+            </div>
+            <button id="mostrar-mas" class="btn-galeria">Mostrar más</button>
+        </section>
+        <!-- Puedes añadir más imágenes ocultas -->
+        <section id="nosotros" class="nosotros-section">
+            <footer>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>Mercadito Los Almendros | Horario: 8:00 AM - 8:00 PM</p>
+                <p>&copy; 2024 Mercadito Los Almendros - Todos los derechos reservados</p>
+                <p>Design by <a href="https://www.instagram.com/diana.orellanaa/" target="_blank">Diana Orellana</a></p>
+            </footer>
+        </section>
+    </header>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
